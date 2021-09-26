@@ -1,0 +1,13 @@
+sp-prod.net, script
+*.usercentrics.eu,
+*.mgr.consensu.org, script
+consent-cdn.sueddeutsche.de
+consent.cookiebot.com, script
+consent.t-online.de, script
+*/uv_gdpr/js/*, script
+*/eu_cookie_compliance/js/*, script
+gdpr-tcfv2.sp-prod.net, script
+notice.sp-stage.net,
+cdn.privacy-mgmt.com,
+*/wrapperMessagingWithoutDetection.js, script
+*/cookies-policy-notification-bar.min.js, script

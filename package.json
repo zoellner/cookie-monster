@@ -1,0 +1,29 @@
+{
+  "name": "cookie-monster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "manifest.json",
+  "scripts": {
+    "lint": "npx eslint .",
+    "compile": "node scripts/convertRules.js",
+    "postversion": "node scripts/syncVersion.js",
+    "chrome:upload": "webstore upload --source ./src",
+    "chrome:publish": "webstore publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoellner/cookie-monster.git"
+  },
+  "author": "Andreas Zoellner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoellner/cookie-monster/issues"
+  },
+  "homepage": "https://github.com/zoellner/cookie-monster#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chrome-webstore-upload-cli": "^2.0.1",
+    "eslint": "^7.32.0"
+  }
+}
