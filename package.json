@@ -2,7 +2,7 @@
   "name": "cookie-monster",
   "version": "1.0.0",
   "description": "",
-  "main": "manifest.json",
+  "main": "scripts/convertRules.js",
   "scripts": {
     "lint": "npx eslint .",
     "compile": "node scripts/convertRules.js",
