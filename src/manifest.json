@@ -1,5 +1,5 @@
 {
-  "name": "Cookie Monster Plugin",
+  "name": "Cookie Monster",
   "version": "0.1",
   "description": "This extension deals with cookie consent screens in the EU",
   "manifest_version": 3,

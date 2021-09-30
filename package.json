@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts/convertRules.js",
+  "private": true,
   "scripts": {
     "lint": "npx eslint .",
     "compile": "node scripts/convertRules.js",
