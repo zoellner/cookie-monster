@@ -15,7 +15,7 @@ Right now this is published as a Chrome Extension in the [Chrome Web Store](http
 Cookie Monster works a bit like an ad blocker but instead of ads it blocks cookie consent dialogs.
 
 ## How can I help?
-Submit pages that stil have cookie consent dialogs here: https://github.com/zoellner/cookie-monster/issues
+Submit pages that still have cookie consent dialogs here: https://github.com/zoellner/cookie-monster/issues
 
 ## How can I contribute even more?
 You can donate to the development of this browser extension here: https://github.com/sponsors/zoellner
