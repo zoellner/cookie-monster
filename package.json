@@ -8,8 +8,8 @@
     "lint": "npx eslint .",
     "compile": "node scripts/convertRules.js",
     "postversion": "node scripts/syncVersion.js",
-    "chrome:upload": "webstore upload --source ./src",
-    "chrome:publish": "webstore publish"
+    "chrome:upload": "chrome-webstore-upload upload --source ./src",
+    "chrome:publish": "chrome-webstore-upload publish"
   },
   "repository": {
     "type": "git",
