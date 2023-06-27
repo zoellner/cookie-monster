@@ -1,6 +1,6 @@
 {
   "name": "Cookie Monster",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This extension deals with cookie consent screens in the EU",
   "manifest_version": 3,
   "author": "Andreas Zoellner",
