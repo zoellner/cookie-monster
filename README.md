@@ -27,7 +27,8 @@ This extension is built using [WXT](https://wxt.dev/), a modern framework for bu
 ## Setup
 
 1. Clone the repository
-2. Install dependencies: `npm install`
+2. Ensure you have Node.js 22 or higher installed
+3. Install dependencies: `npm install`
 
 ## Development Workflow
 

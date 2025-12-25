@@ -25,6 +25,9 @@
     "url": "https://github.com/zoellner/cookie-monster/issues"
   },
   "homepage": "https://github.com/zoellner/cookie-monster#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "devDependencies": {
     "@types/node": "^25.0.3",
     "@typescript-eslint/eslint-plugin": "^8.50.1",
