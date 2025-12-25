@@ -25,3 +25,8 @@ typings/
 ignore
 src/_metadata
 .claude
+
+# WXT
+.wxt/
+.output/
+*.zip

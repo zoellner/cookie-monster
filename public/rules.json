@@ -155,5 +155,18 @@
         "script"
       ]
     }
+  },
+  {
+    "id": 14,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "tags-eu.tiqcdn.com/utag/telekom/unterhaltung/prod/utag.js",
+      "resourceTypes": [
+        "script"
+      ]
+    }
   }
 ]
