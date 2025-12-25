@@ -1,6 +1,6 @@
 {
   "name": "cookie-monster",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Browser extension to block cookie consent dialogs",
   "private": true,
   "type": "module",
