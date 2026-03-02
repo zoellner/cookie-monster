@@ -17,7 +17,6 @@ export default defineConfig({
     name: 'Cookie Monster',
     description: 'This extension deals with cookie consent screens in the EU',
     version: process.env.npm_package_version || '1.1.0', // Auto-sync from package.json
-    author: 'Andreas Zoellner',
 
     permissions: [
       'declarativeNetRequest',
