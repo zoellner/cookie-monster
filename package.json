@@ -12,7 +12,8 @@
     "compile": "tsx scripts/compile-rules.ts",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
-    "lint": "eslint . --ext .ts",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
@@ -30,9 +31,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
-    "@typescript-eslint/eslint-plugin": "^8.56.1",
-    "@typescript-eslint/parser": "^8.56.1",
-    "eslint": "^9.39.2",
+    "oxlint": "^1.79.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "wxt": "^0.20.18"

@@ -1,0 +1,38 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "typescript",
+    "unicorn",
+    "oxc",
+    "import"
+  ],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error"
+  },
+  "env": {
+    "browser": true,
+    "es2024": true
+  },
+  "globals": {
+    "defineBackground": "readonly",
+    "defineContentScript": "readonly",
+    "defineUnlistedScript": "readonly"
+  },
+  "ignorePatterns": [
+    ".output",
+    ".wxt",
+    "public/rules.json"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "scripts/**/*.ts",
+        "wxt.config.ts"
+      ],
+      "env": {
+        "node": true
+      }
+    }
+  ]
+}
