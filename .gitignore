@@ -30,3 +30,6 @@ src/_metadata
 .wxt/
 .output/
 *.zip
+
+# OS
+.DS_Store
